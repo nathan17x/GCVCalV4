@@ -40,7 +40,7 @@ def runtime_loop():
                 page.click('button#gcv-login-signin-submit')
                 print("Sign in success")
                 page.goto(my_calendar_url)
-                print("Calendar access")
+                print("Calendar accessxdfbf")
 
                 html = page.inner_html('#calendarBody')
 
