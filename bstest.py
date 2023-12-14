@@ -24,7 +24,7 @@ try:
 
         soup = BeautifulSoup(html, 'html.parser')
 
-        numberedjobs = soup.findAll('a', {'jobid': True})
+        numberedjobs = soup.findAll( 'a', {'jobid': True})
         otherjobs = soup.findAll('span', {'class': 'staffStatusAbbrev'})
 
         for job in numberedjobs:
