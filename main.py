@@ -22,7 +22,7 @@ def add_event_to_calendar(job):
             'end_date_time': job.parent.parent.parent.get('date'),
             }
     print(data)
-    with open("datatest.txt", 'a') as f:
+    with open("events.txt", 'a') as f:
         f.write("\n")
         f.write(job.text)
         f.close()
